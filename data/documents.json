@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "title": "AD/ART RKB-AMB",
+        "description": "Anggaran Dasar dan Anggaran Rumah Tangga organisasi yang disahkan pada Reoni Cabbengge 2017.",
+        "category": "Legal",
+        "fileUrl": "#",
+        "fileSize": "2.5 MB",
+        "uploadDate": "2024-01-10"
+    },
+    {
+        "id": "2",
+        "title": "Struktur Organisasi Lengkap",
+        "description": "Bagan struktur organisasi lengkap beserta tugas dan tanggung jawab setiap divisi.",
+        "category": "Umum",
+        "fileUrl": "#",
+        "fileSize": "1.2 MB",
+        "uploadDate": "2024-02-15"
+    },
+    {
+        "id": "3",
+        "title": "Program Kerja 2024-2025",
+        "description": "Rencana kegiatan dan program kerja pengurus untuk periode berjalan.",
+        "category": "Program",
+        "fileUrl": "#",
+        "fileSize": "800 KB",
+        "uploadDate": "2024-03-01"
+    }
+]

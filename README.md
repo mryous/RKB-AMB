@@ -29,8 +29,39 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployment Guide
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1. Environment Variables
+For production deployment, you must configure the following environment variables in your Vercel project settings:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `NEXTAUTH_URL`: Your production URL (e.g., `https://your-project.vercel.app`)
+- `NEXTAUTH_SECRET`: A secure random string. You can generate one using:
+  ```bash
+  openssl rand -base64 32
+  ```
+
+### 2. Deploy to Vercel
+You can deploy using the Vercel CLI or by connecting your GitHub repository.
+
+**Option A: Connect GitHub (Recommended)**
+1. Push your code to GitHub.
+2. Go to [Vercel Dashboard](https://vercel.com/dashboard) and "Add New Project".
+3. Import your repository.
+4. Add the Environment Variables mentioned above.
+5. Click **Deploy**.
+
+**Option B: Vercel CLI**
+1. Install Vercel CLI: `npm i -g vercel`
+2. Run deployment:
+   ```bash
+   vercel --prod
+   ```
+3. Follow the prompts and set the environment variables when asked.
+
+### 3. CI/CD
+This project includes a GitHub Actions workflow (`.github/workflows/ci.yml`) that automatically runs linting and build checks on every push to `main`.
+
+### 4. Security
+- **Headers**: Security headers (CSP, HSTS, etc.) are configured in `vercel.json`.
+- **Authentication**: Admin routes are protected by NextAuth.js and Middleware.
+

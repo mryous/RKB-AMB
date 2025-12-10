@@ -1,0 +1,340 @@
+/* Container & Layout */
+.container {
+    background-color: #f9fafb;
+    min-height: 100vh;
+}
+
+.contentWrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 10;
+    margin-top: -4rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 60vh;
+    min-height: 400px;
+    width: 100%;
+    background-color: #111827;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.heroImage {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.heroOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+}
+
+.heroContent {
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem 4rem 1rem;
+    color: white;
+}
+
+.metaWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.categoryBadge {
+    background-color: var(--primary);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.metaItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.9;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    max-width: 900px;
+}
+
+.authorWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.authorAvatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    backdrop-filter: blur(4px);
+}
+
+.authorInfo p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.authorName {
+    font-weight: 600;
+}
+
+.authorRole {
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+/* Main Article Card */
+.articleCard {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 2rem;
+    border: 1px solid #e5e7eb;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.breadcrumbLink {
+    color: #6b7280;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.breadcrumbLink:hover {
+    color: var(--primary);
+}
+
+.currentCrumb {
+    color: #111827;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+}
+
+/* Featured Image In-Article */
+.featuredImageWrapper {
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: #f3f4f6;
+}
+
+.featuredImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imageCaption {
+    display: block;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 0.75rem;
+    font-style: italic;
+}
+
+/* Content Area */
+.content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #374151;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+}
+
+/* Footer (Tags & Share) */
+.articleFooter {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.tagsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    background-color: #f3f4f6;
+    color: #4b5563;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.tag:hover {
+    background-color: #e5e7eb;
+}
+
+.shareWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.shareLabel {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.shareBtn {
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #eff6ff;
+    color: #2563eb;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.shareBtn:hover {
+    background-color: #dbeafe;
+}
+
+/* Navigation */
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.navCard {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    text-decoration: none;
+    display: block;
+}
+
+.navCard:hover {
+    border-color: var(--primary);
+}
+
+.navLabel {
+    display: block;
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.navTitle {
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Sidebar Area */
+.sidebarWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* Push sidebar down to start below the hero overlap area */
+    margin-top: 4rem;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .title {
+        font-size: 3.5rem;
+    }
+
+    .articleCard {
+        padding: 3rem;
+    }
+
+    .articleFooter {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .sidebarWrapper {
+        position: sticky;
+        top: 2rem;
+        height: fit-content;
+    }
+}

@@ -1,0 +1,310 @@
+.page {
+    min-height: 100vh;
+    background-color: var(--background);
+}
+
+.header {
+    background-color: var(--primary);
+    color: white;
+    padding: 5rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.headerContent {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 3rem 0;
+}
+
+.upcomingCard {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border: 1px solid var(--secondary);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.upcomingLeft {
+    background-color: var(--secondary);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--secondary-foreground);
+    text-align: center;
+}
+
+.upcomingLabel {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+}
+
+.upcomingTitle {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.upcomingInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.infoItem {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    justify-content: center;
+}
+
+.btnDark {
+    background-color: var(--foreground);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+}
+
+.btnDark:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.upcomingRight {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdownTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+.countdownDesc {
+    color: var(--muted-foreground);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.countdownTimer {
+    display: flex;
+    gap: 1rem;
+}
+
+.timerItem {
+    text-align: center;
+}
+
+.timerValue {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.timerLabel {
+    font-size: 0.75rem;
+    color: var(--muted-foreground);
+}
+
+.archiveTitle {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.reunionCard {
+    background-color: white;
+    border-radius: 0.75rem;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.reunionCard:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cardImage {
+    height: 12rem;
+    background-color: #e5e7eb;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardOverlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(30, 58, 138, 0.1);
+    /* var(--primary) / 0.1 */
+    transition: background 0.3s;
+}
+
+.reunionCard:hover .cardOverlay {
+    background-color: transparent;
+}
+
+.badge {
+    position: absolute;
+    top: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(4px);
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.badgeYear {
+    left: 1rem;
+    color: var(--primary);
+}
+
+.badgeLocation {
+    right: 1rem;
+    color: var(--secondary);
+}
+
+.imagePlaceholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted-foreground);
+}
+
+.cardImageImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardContent {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--foreground);
+    margin-bottom: 0.5rem;
+    transition: color 0.2s;
+}
+
+.reunionCard:hover .cardTitle {
+    color: var(--primary);
+}
+
+.cardMeta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+    margin-bottom: 0.75rem;
+}
+
+.cardDesc {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    flex: 1;
+    line-height: 1.5;
+}
+
+.cardLink {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-decoration: none;
+    margin-top: auto;
+    gap: 0.25rem;
+    transition: gap 0.2s;
+}
+
+.cardLink:hover {
+    gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .upcomingCard {
+        flex-direction: row;
+    }
+
+    .upcomingLeft {
+        width: 33.333%;
+        text-align: left;
+    }
+
+    .upcomingRight {
+        width: 66.666%;
+        padding: 3rem;
+    }
+
+    .infoItem {
+        justify-content: flex-start;
+    }
+
+    .btnDark {
+        width: auto;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

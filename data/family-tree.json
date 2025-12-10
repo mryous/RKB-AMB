@@ -1,0 +1,28 @@
+[
+  {
+    "id": "root",
+    "name": "H. Beddu Leppang",
+    "spouse": "Hj. Sami",
+    "birthYear": "19xx",
+    "deathYear": "19xx",
+    "location": "Barru",
+    "photo": "",
+    "parentId": null,
+    "gender": "male",
+    "bio": "Leluhur utama keluarga besar."
+  },
+  {
+    "id": "c1ea3c1d-f5b0-4e82-80db-1a49e9a99640",
+    "name": "Anak Pertama",
+    "spouse": "Menantu",
+    "birthYear": "",
+    "deathYear": "",
+    "location": "",
+    "photo": "https://placehold.co/100x100/orange/white",
+    "parentId": "root",
+    "gender": "male",
+    "bio": "",
+    "createdAt": 1764230001478,
+    "updatedAt": 1764230001478
+  }
+]

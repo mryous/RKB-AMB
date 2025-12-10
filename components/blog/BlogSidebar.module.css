@@ -1,0 +1,163 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #111827;
+}
+
+/* Search */
+.searchWrapper {
+    position: relative;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+    /* Left padding for icon? No, icon is right? Let's check code */
+    /* Code had icon on right. Let's stick to standard input styling */
+    padding: 0.75rem 2.5rem 0.75rem 1rem;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.searchInput:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.1);
+    /* Assuming primary-rgb exists, else just ring */
+}
+
+.searchBtn {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.searchBtn:hover {
+    color: var(--primary);
+}
+
+/* Categories */
+.categoryList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.categoryLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4b5563;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    transition: color 0.2s;
+}
+
+.categoryLink:hover {
+    color: var(--primary);
+}
+
+.categoryCount {
+    background-color: #f3f4f6;
+    color: #6b7280;
+    font-size: 0.75rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
+    transition: all 0.2s;
+}
+
+.categoryLink:hover .categoryCount {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Recent Posts */
+.recentPosts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.postItem {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    group: true;
+    /* for reference */
+}
+
+.postImageWrapper {
+    width: 5rem;
+    height: 5rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: #e5e7eb;
+    position: relative;
+}
+
+.postImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.postItem:hover .postImage {
+    transform: scale(1.1);
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.postTitle {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: color 0.2s;
+}
+
+.postItem:hover .postTitle {
+    color: var(--primary);
+}
+
+.postDate {
+    font-size: 0.75rem;
+    color: #6b7280;
+}

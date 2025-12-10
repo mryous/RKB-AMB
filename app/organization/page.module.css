@@ -1,0 +1,279 @@
+.page {
+    min-height: 100vh;
+    background-color: var(--background);
+}
+
+.header {
+    background-color: var(--primary);
+    color: white;
+    padding: 5rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.headerContent {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+.sectionTitle {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.sectionSubtitle {
+    color: var(--muted-foreground);
+    text-align: center;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Profile Cards */
+.profileGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+.mainProfileWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.profileCard {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border);
+    text-align: center;
+    width: 100%;
+}
+
+.mainProfileCard {
+    width: 100%;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+.mainProfileCard:hover {
+    transform: scale(1.05);
+}
+
+.avatarWrapper {
+    margin: 0 auto;
+    background-color: #e5e7eb;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.avatarMain {
+    width: 8rem;
+    height: 8rem;
+}
+
+.avatarRegular {
+    width: 6rem;
+    height: 6rem;
+}
+
+.avatarPlaceholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted-foreground);
+}
+
+.profileName {
+    font-weight: 700;
+    color: var(--foreground);
+}
+
+.nameMain {
+    font-size: 1.25rem;
+}
+
+.nameRegular {
+    font-size: 1.125rem;
+}
+
+.profileRole {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+/* Documents Section */
+.documentsSection {
+    padding: 5rem 0;
+    background-color: rgba(243, 244, 246, 0.5);
+    /* var(--muted) / 0.5 */
+}
+
+.documentGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 56rem;
+    margin: 0 auto;
+}
+
+.documentCard {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: all 0.2s;
+}
+
+.documentCard:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.docTitle {
+    font-weight: 700;
+    color: var(--foreground);
+    margin-bottom: 0.5rem;
+    transition: color 0.2s;
+}
+
+.documentCard:hover .docTitle {
+    color: var(--primary);
+}
+
+.docDesc {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+    margin-bottom: 0.5rem;
+}
+
+.docSize {
+    font-size: 0.75rem;
+    font-family: monospace;
+    background-color: var(--muted);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.downloadBtn {
+    padding: 0.75rem;
+    background-color: var(--muted);
+    border-radius: 0.5rem;
+    color: var(--foreground);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.documentCard:hover .downloadBtn {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Programs Section */
+.programGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.programCard {
+    background-color: var(--background);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--border);
+}
+
+.programTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+.programList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.programItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    color: var(--foreground);
+    opacity: 0.8;
+}
+
+.programDot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    margin-top: 0.5rem;
+    flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+    .profileGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mainProfileWrapper {
+        grid-column: span 3;
+    }
+
+    .mainProfileCard {
+        width: 20rem;
+    }
+
+    .documentGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .programGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

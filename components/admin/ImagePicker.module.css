@@ -1,0 +1,241 @@
+.container {
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #374151;
+}
+
+.previewArea {
+    margin-bottom: 1rem;
+    background-color: #f3f4f6;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    max-height: 400px;
+}
+
+.previewImageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    /* Dark background to see transparent images better */
+}
+
+.previewImage {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.removeButton {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.removeButton:hover {
+    background-color: rgba(220, 38, 38, 0.8);
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #9ca3af;
+    padding: 2rem;
+}
+
+.placeholderIcon {
+    margin-bottom: 0.5rem;
+    opacity: 0.5;
+}
+
+.pickerContainer {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: white;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+}
+
+.tab {
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.2s;
+}
+
+.tab:hover {
+    background-color: #f3f4f6;
+    color: #374151;
+}
+
+.activeTab {
+    background-color: white;
+    color: #4f46e5;
+    border-bottom: 2px solid #4f46e5;
+    margin-bottom: -1px;
+}
+
+.tabContent {
+    padding: 1rem;
+}
+
+/* Upload Tab */
+.uploadTab {
+    text-align: center;
+    padding: 1rem;
+}
+
+.fileInput {
+    display: none;
+}
+
+.uploadButton {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.uploadButton:hover {
+    background-color: #4338ca;
+}
+
+.helperText {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+/* Library Tab */
+.libraryTab {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.75rem;
+}
+
+.gridItem {
+    position: relative;
+    aspect-ratio: 1;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: #f3f4f6;
+}
+
+.gridItem:hover {
+    border-color: #a5b4fc;
+}
+
+.gridItem.selected {
+    border-color: #4f46e5;
+}
+
+.gridItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.checkOverlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(79, 70, 229, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.loading,
+.empty {
+    text-align: center;
+    padding: 2rem;
+    color: #6b7280;
+}
+
+/* URL Tab */
+.urlTab {
+    padding: 0.5rem;
+}
+
+.urlInputGroup {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.urlInput {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+}
+
+.urlInput:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.urlButton {
+    padding: 0.5rem 1rem;
+    background-color: #e5e7eb;
+    color: #374151;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.urlButton:hover {
+    background-color: #d1d5db;
+}

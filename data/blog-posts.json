@@ -1,0 +1,520 @@
+[
+  {
+    "id": "1763993105141",
+    "createdAt": "2025-11-24T14:05:05.141Z",
+    "updatedAt": "2025-11-24T14:05:05.141Z",
+    "views": 0,
+    "revisions": [],
+    "title": "Pembentukan Struktur Awal RKB-AMB",
+    "content": {
+      "root": {
+        "children": [
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "MAKASSAR - RKB-AMB memulai penyusunan struktur organisasi baru untuk memperkuat koordinasi di tingkat daerah. Tim inti menyepakati pembagian peran agar kegiatan berjalan lebih terarah.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Pertemuan berlangsung secara terbuka dan memberikan ruang bagi anggota untuk menyampaikan masukan. Diskusi tersebut menjadi landasan awal pembaruan internal.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Keputusan yang dihasilkan juga menjadi dasar penyusunan fitur ",
+                "type": "text",
+                "version": 1
+              },
+              {
+                "detail": 0,
+                "format": 2,
+                "mode": "normal",
+                "style": "",
+                "text": "family tree",
+                "type": "text",
+                "version": 1
+              },
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": " pada website. Fitur ini akan memetakan hubungan anggota dan mempermudah dokumentasi.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          }
+        ],
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "type": "root",
+        "version": 1
+      }
+    },
+    "excerpt": "RKB-AMB memulai penyusunan struktur organisasi baru",
+    "status": "published",
+    "publishedAt": "2025-11-24T14:00",
+    "slug": "pembentukan-struktur-awal-rkb-amb",
+    "categories": [
+      "Berita"
+    ],
+    "tags": [
+      "Struktur"
+    ],
+    "featuredImage": "https://picsum.photos/seed/picsum/200/300",
+    "seoTitle": "",
+    "seoDescription": ""
+  },
+  {
+    "id": "1763993201216",
+    "createdAt": "2025-11-24T14:06:41.215Z",
+    "updatedAt": "2025-11-24T14:06:41.215Z",
+    "views": 0,
+    "revisions": [],
+    "title": "Digitalisasi Arsip Keluarga RKB-AMB",
+    "content": {
+      "root": {
+        "children": [
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "PALU - Program digitalisasi arsip mulai dijalankan untuk menyimpan dokumen penting secara lebih aman. Tahap pertama meliputi pengumpulan foto, data keluarga, dan catatan historis.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Seluruh berkas dipindai dan disusun dalam format digital agar mudah diakses oleh anggota. Proses ini dilakukan secara bertahap untuk menjaga ketelitian data.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Arsip digital tersebut nanti akan terhubung dengan database pada website RKB-AMB, terutama fitur sejarah keluarga dan garis keturunan.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          }
+        ],
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "type": "root",
+        "version": 1
+      }
+    },
+    "excerpt": "Program digitalisasi arsip mulai dijalankan",
+    "status": "published",
+    "publishedAt": "2025-11-24T14:05",
+    "slug": "digitalisasi-arsip-keluarga-rkb-amb",
+    "categories": [
+      "Berita"
+    ],
+    "tags": [
+      "arsip",
+      "digitalisasi"
+    ],
+    "featuredImage": "https://picsum.photos/seed/picsum/200/300",
+    "seoTitle": "",
+    "seoDescription": ""
+  },
+  {
+    "id": "1763993318739",
+    "createdAt": "2025-11-24T14:08:38.739Z",
+    "updatedAt": "2025-11-24T14:08:38.739Z",
+    "views": 0,
+    "revisions": [],
+    "title": "Pelatihan Pengelolaan Data Anggota",
+    "content": {
+      "root": {
+        "children": [
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "PALU - Tim RKB-AMB mengadakan pelatihan internal tentang cara mengelola data anggota. Pelatihan ini bertujuan meningkatkan akurasi dan keamanan data yang masuk ke sistem.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Peserta diberikan contoh cara input data dasar, memperbarui informasi, hingga mengunggah dokumen pendukung. Semua langkah dijelaskan secara sederhana.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Dengan keterampilan ini, anggota dapat membantu memperkaya konten website, terutama pada bagian profil keluarga dan struktur komunitas.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          }
+        ],
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "type": "root",
+        "version": 1
+      }
+    },
+    "excerpt": "Tim RKB-AMB mengadakan pelatihan internal",
+    "status": "published",
+    "publishedAt": "2025-11-24T14:06",
+    "slug": "pelatihan-pengelolaan-data-anggota",
+    "categories": [
+      "Berita"
+    ],
+    "tags": [
+      "data",
+      "pelatihan"
+    ],
+    "featuredImage": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o",
+    "seoTitle": "",
+    "seoDescription": ""
+  },
+  {
+    "id": "1763993405443",
+    "createdAt": "2025-11-24T14:10:05.443Z",
+    "updatedAt": "2025-11-24T14:10:05.443Z",
+    "views": 0,
+    "revisions": [],
+    "title": "Kegiatan Silaturahmi dan Konsolidasi",
+    "content": {
+      "root": {
+        "children": [
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "MAKASSAR - RKB-AMB kembali menggelar kegiatan silaturahmi untuk mempererat hubungan antaranggota. Acara berlangsung santai dan memberi ruang diskusi mengenai rencana pengembangan komunitas.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Beberapa usulan baru muncul, termasuk penguatan fitur pencarian data keluarga di website. Usulan tersebut akan menjadi prioritas pembaruan selanjutnya.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Kegiatan ini juga menjadi momentum untuk memperkenalkan anggota baru serta memastikan struktur ",
+                "type": "text",
+                "version": 1
+              },
+              {
+                "detail": 0,
+                "format": 2,
+                "mode": "normal",
+                "style": "",
+                "text": "family tree",
+                "type": "text",
+                "version": 1
+              },
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": " tetap ter-update.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          }
+        ],
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "type": "root",
+        "version": 1
+      }
+    },
+    "excerpt": "RKB-AMB kembali menggelar kegiatan silaturahmi",
+    "status": "published",
+    "publishedAt": "2025-11-24T14:08",
+    "slug": "kegiatan-silaturahmi-dan-konsolidasi",
+    "categories": [
+      "Berita"
+    ],
+    "tags": [
+      "Silaturahmi",
+      "konsolidasi"
+    ],
+    "featuredImage": "https://picsum.photos/id/12/200/300",
+    "seoTitle": "",
+    "seoDescription": ""
+  },
+  {
+    "id": "1763993483175",
+    "createdAt": "2025-11-24T14:11:23.175Z",
+    "updatedAt": "2025-11-24T14:11:23.175Z",
+    "views": 0,
+    "revisions": [],
+    "title": "Persiapan Peluncuran Website Resmi",
+    "content": {
+      "root": {
+        "children": [
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "MAKASSAR - Tim teknis RKB-AMB menyelesaikan tahap awal pembangunan website yang memuat profil organisasi, dokumentasi kegiatan, dan ",
+                "type": "text",
+                "version": 1
+              },
+              {
+                "detail": 0,
+                "format": 2,
+                "mode": "normal",
+                "style": "",
+                "text": "family tree",
+                "type": "text",
+                "version": 1
+              },
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": ". Desain dibuat sederhana agar mudah digunakan.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Sebelum peluncuran, dilakukan pengecekan ulang pada sistem input data dan navigasi menu. Perbaikan kecil diselesaikan agar tidak mengganggu pengalaman pengguna.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          },
+          {
+            "children": [
+              {
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": "",
+                "text": "Website ini diharapkan menjadi pusat informasi yang rapi dan mudah diakses, sekaligus media untuk menghubungkan seluruh anggota dalam satu platform.",
+                "type": "text",
+                "version": 1
+              }
+            ],
+            "direction": null,
+            "format": "",
+            "indent": 0,
+            "type": "paragraph",
+            "version": 1,
+            "textFormat": 0,
+            "textStyle": ""
+          }
+        ],
+        "direction": null,
+        "format": "",
+        "indent": 0,
+        "type": "root",
+        "version": 1
+      }
+    },
+    "excerpt": "Tim teknis RKB-AMB menyelesaikan tahap awal pembangunan website",
+    "status": "draft",
+    "publishedAt": "2025-11-24T14:10",
+    "slug": "persiapan-peluncuran-website-resmi",
+    "categories": [
+      "Berita"
+    ],
+    "tags": [
+      "website",
+      "dokumentasi"
+    ],
+    "featuredImage": "https://picsum.photos/id/43/200/300",
+    "seoTitle": "",
+    "seoDescription": ""
+  }
+]

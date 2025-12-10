@@ -9,9 +9,24 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@lexical/code": "^0.38.2",
+    "@lexical/history": "^0.38.2",
+    "@lexical/link": "^0.38.2",
+    "@lexical/list": "^0.38.2",
+    "@lexical/markdown": "^0.38.2",
+    "@lexical/react": "^0.38.2",
+    "@lexical/rich-text": "^0.38.2",
+    "@lexical/utils": "^0.38.2",
+    "cypress": "^15.7.1",
+    "date-fns": "^4.1.0",
+    "lexical": "^0.38.2",
+    "lucide-react": "^0.554.0",
     "next": "16.0.3",
+    "next-auth": "^4.24.13",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "slugify": "^1.6.6",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "eslint": "^9",

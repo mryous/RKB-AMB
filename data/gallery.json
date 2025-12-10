@@ -1,0 +1,301 @@
+[
+    {
+        "id": "gallery-1732600000001",
+        "title": "Pertemuan Keluarga Besar di Barru",
+        "description": "Momen kebersamaan keluarga besar saat berkumpul di kampung halaman Barru, Sulawesi Selatan",
+        "imageUrl": "https://picsum.photos/seed/family1/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/family1/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2024-12-25T10:00:00.000Z",
+        "photographer": "Pak Ahmad",
+        "location": "Barru, Sulawesi Selatan",
+        "dateTaken": "2024-12-25",
+        "category": "family",
+        "tags": [
+            "keluarga",
+            "barru",
+            "2024",
+            "silaturahmi"
+        ],
+        "relatedTo": null,
+        "status": "published",
+        "featured": true,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000002",
+        "title": "Reoni Calio 2019 - Pembukaan Acara",
+        "description": "Momen pembukaan Reoni Ketiga di Calio dengan sambutan dari ketua panitia",
+        "imageUrl": "https://picsum.photos/seed/reunion1/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/reunion1/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2019-08-10T08:00:00.000Z",
+        "photographer": "",
+        "location": "Calio, Sulawesi Selatan",
+        "dateTaken": "2019-08-10",
+        "category": "reunion",
+        "tags": [
+            "reuni",
+            "2019",
+            "calio",
+            "pembukaan"
+        ],
+        "relatedTo": {
+            "type": "reunion",
+            "id": "1562889600000",
+            "title": "Reoni Ketiga: Idul Adha & Mappadendang"
+        },
+        "status": "published",
+        "featured": true,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000003",
+        "title": "Pertunjukan Mappadendang",
+        "description": "Pertunjukan seni tradisional Mappadendang yang meriah di Reoni Calio 2019",
+        "imageUrl": "https://picsum.photos/seed/mappadendang/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/mappadendang/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2019-08-11T14:00:00.000Z",
+        "photographer": "Ibu Siti",
+        "location": "Calio, Sulawesi Selatan",
+        "dateTaken": "2019-08-11",
+        "category": "reunion",
+        "tags": [
+            "reuni",
+            "2019",
+            "calio",
+            "mappadendang",
+            "budaya"
+        ],
+        "relatedTo": {
+            "type": "reunion",
+            "id": "1562889600000",
+            "title": "Reoni Ketiga: Idul Adha & Mappadendang"
+        },
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000004",
+        "title": "Pemotongan Hewan Qurban",
+        "description": "Kegiatan pemotongan hewan qurban dalam rangka Idul Adha di Reoni 2019",
+        "imageUrl": "https://picsum.photos/seed/qurban/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/qurban/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2019-08-11T09:00:00.000Z",
+        "photographer": "",
+        "location": "Calio, Sulawesi Selatan",
+        "dateTaken": "2019-08-11",
+        "category": "event",
+        "tags": [
+            "idul-adha",
+            "qurban",
+            "2019",
+            "calio"
+        ],
+        "relatedTo": {
+            "type": "reunion",
+            "id": "1562889600000",
+            "title": "Reoni Ketiga: Idul Adha & Mappadendang"
+        },
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000005",
+        "title": "Foto Bersama Generasi Muda",
+        "description": "Dokumentasi kebersamaan generasi muda keluarga besar",
+        "imageUrl": "https://picsum.photos/seed/youth/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/youth/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2024-06-15T16:00:00.000Z",
+        "photographer": "Andi",
+        "location": "Makassar, Sulawesi Selatan",
+        "dateTaken": "2024-06-15",
+        "category": "family",
+        "tags": [
+            "generasi-muda",
+            "makassar",
+            "2024"
+        ],
+        "relatedTo": null,
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000006",
+        "title": "Ziarah ke Makam Leluhur",
+        "description": "Kegiatan ziarah ke makam leluhur di Doda dalam rangka Reoni 2023",
+        "imageUrl": "https://picsum.photos/seed/ziarah/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/ziarah/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2023-05-06T10:00:00.000Z",
+        "photographer": "",
+        "location": "Doda, Sulawesi Tengah",
+        "dateTaken": "2023-05-06",
+        "category": "reunion",
+        "tags": [
+            "reuni",
+            "2023",
+            "doda",
+            "ziarah"
+        ],
+        "relatedTo": {
+            "type": "reunion",
+            "id": "1683331200000",
+            "title": "Reoni Keempat: Ziarah Doda"
+        },
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000007",
+        "title": "Kampung Halaman Doda",
+        "description": "Pemandangan kampung halaman leluhur di Doda yang masih asri",
+        "imageUrl": "https://picsum.photos/seed/doda/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/doda/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2023-05-06T14:00:00.000Z",
+        "photographer": "Pak Budi",
+        "location": "Doda, Sulawesi Tengah",
+        "dateTaken": "2023-05-06",
+        "category": "archive",
+        "tags": [
+            "doda",
+            "kampung-halaman",
+            "2023",
+            "sejarah"
+        ],
+        "relatedTo": null,
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000008",
+        "title": "Acara Silaturahmi Keluarga",
+        "description": "Acara silaturahmi rutin keluarga besar di Makassar",
+        "imageUrl": "https://picsum.photos/seed/silaturahmi/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/silaturahmi/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2024-03-20T15:00:00.000Z",
+        "photographer": "",
+        "location": "Makassar, Sulawesi Selatan",
+        "dateTaken": "2024-03-20",
+        "category": "event",
+        "tags": [
+            "silaturahmi",
+            "makassar",
+            "2024"
+        ],
+        "relatedTo": null,
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000009",
+        "title": "Reoni Sidondo 2016 - Foto Bersama",
+        "description": "Foto bersama seluruh peserta Reoni Pertama di Sidondo",
+        "imageUrl": "https://picsum.photos/seed/sidondo/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/sidondo/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2016-01-02T16:00:00.000Z",
+        "photographer": "",
+        "location": "Sidondo, Sulawesi Tengah",
+        "dateTaken": "2016-01-02",
+        "category": "reunion",
+        "tags": [
+            "reuni",
+            "2016",
+            "sidondo",
+            "foto-bersama"
+        ],
+        "relatedTo": {
+            "type": "reunion",
+            "id": "1451606400000",
+            "title": "Reoni Pertama: Awal Kebangkitan"
+        },
+        "status": "published",
+        "featured": true,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000010",
+        "title": "Dokumentasi Sejarah Keluarga",
+        "description": "Foto dokumentasi sejarah keluarga yang telah didigitalisasi",
+        "imageUrl": "https://picsum.photos/seed/archive1/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/archive1/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2024-01-10T10:00:00.000Z",
+        "photographer": "Arsip Keluarga",
+        "location": "Sulawesi",
+        "dateTaken": "1980-01-01",
+        "category": "archive",
+        "tags": [
+            "arsip",
+            "sejarah",
+            "dokumentasi",
+            "lawas"
+        ],
+        "relatedTo": null,
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000011",
+        "title": "Persiapan Reoni Akbar 2025",
+        "description": "Rapat persiapan Reoni Akbar Ke-5 di Makassar",
+        "imageUrl": "https://picsum.photos/seed/prep2025/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/prep2025/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2025-01-15T14:00:00.000Z",
+        "photographer": "Panitia",
+        "location": "Makassar, Sulawesi Selatan",
+        "dateTaken": "2025-01-15",
+        "category": "event",
+        "tags": [
+            "reuni",
+            "2025",
+            "persiapan",
+            "makassar"
+        ],
+        "relatedTo": {
+            "type": "reunion",
+            "id": "1752739200000",
+            "title": "Reoni Akbar Ke-5"
+        },
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    },
+    {
+        "id": "gallery-1732600000012",
+        "title": "Anak-anak Bermain Bersama",
+        "description": "Momen kebersamaan anak-anak keluarga besar saat bermain",
+        "imageUrl": "https://picsum.photos/seed/kids/800/600",
+        "thumbnailUrl": "https://picsum.photos/seed/kids/400/300",
+        "uploadedBy": "Admin",
+        "uploadedAt": "2024-08-17T11:00:00.000Z",
+        "photographer": "Ibu Ani",
+        "location": "Makassar, Sulawesi Selatan",
+        "dateTaken": "2024-08-17",
+        "category": "family",
+        "tags": [
+            "anak-anak",
+            "bermain",
+            "keluarga",
+            "2024"
+        ],
+        "relatedTo": null,
+        "status": "published",
+        "featured": false,
+        "viewCount": 0
+    }
+]

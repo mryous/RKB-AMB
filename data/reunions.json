@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1451606400000",
+        "title": "Reoni Pertama: Awal Kebangkitan",
+        "year": "2016",
+        "date": "1-3 Januari 2016",
+        "location": "Sidondo, Sulawesi Tengah",
+        "attendees": "150+ keluarga",
+        "description": "Pertemuan penuh haru yang menjadi titik balik bersatunya kembali keluarga besar yang telah lama terpisah jarak. Reoni pertama ini menandai dimulainya tradisi silaturahmi rutin keluarga besar RKB-AMB.",
+        "details": "Reoni pertama diadakan di Sidondo dengan penuh keharuan. Banyak anggota keluarga yang baru pertama kali bertemu setelah puluhan tahun terpisah. Acara berlangsung selama 3 hari dengan berbagai kegiatan seperti silaturahmi, makan bersama, dan diskusi tentang masa depan keluarga besar. Momen ini menjadi fondasi kuat untuk pertemuan-pertemuan selanjutnya.",
+        "coverImage": "https://placehold.co/800x600/1e3a8a/ffffff?text=Reoni+Sidondo+2016",
+        "gallery": [
+            "https://placehold.co/600x600/3b82f6/ffffff?text=Foto+Keluarga+Besar",
+            "https://placehold.co/600x600/60a5fa/ffffff?text=Makan+Bersama",
+            "https://placehold.co/600x600/93c5fd/ffffff?text=Anak-anak+Bermain"
+        ],
+        "status": "past",
+        "createdAt": "2016-01-01T00:00:00.000Z"
+    },
+    {
+        "id": "1483228800000",
+        "title": "Reoni Kedua: Pembentukan Organisasi",
+        "year": "2017",
+        "date": "15-17 Desember 2017",
+        "location": "Cabbengge, Sulawesi Selatan",
+        "attendees": "200+ keluarga",
+        "description": "Momen bersejarah dimana struktur pengurus pertama kali dibentuk dan AD/ART disahkan. Menjadi landasan organisasi RKB-AMB yang kuat dan terstruktur.",
+        "details": "Reoni kedua di Cabbengge menandai transformasi dari pertemuan informal menjadi organisasi yang terstruktur. Dalam acara ini, disusun dan disahkan Anggaran Dasar dan Anggaran Rumah Tangga (AD/ART), dipilih pengurus pertama, dan ditetapkan visi misi organisasi. Keputusan-keputusan penting ini menjadi fondasi bagi perkembangan RKB-AMB di masa mendatang. Acara juga dimeriahkan dengan berbagai kegiatan budaya dan diskusi tentang pelestarian nilai-nilai keluarga.",
+        "coverImage": "https://placehold.co/800x600/dc2626/ffffff?text=Pembentukan+Organisasi+2017",
+        "gallery": [
+            "https://placehold.co/600x600/ef4444/ffffff?text=Penandatanganan+AD-ART",
+            "https://placehold.co/600x600/f87171/ffffff?text=Foto+Pengurus",
+            "https://placehold.co/600x600/fca5a5/ffffff?text=Diskusi+Keluarga"
+        ],
+        "status": "past",
+        "createdAt": "2017-12-15T00:00:00.000Z"
+    },
+    {
+        "id": "1562889600000",
+        "title": "Reoni Ketiga: Idul Adha & Mappadendang",
+        "year": "2019",
+        "date": "10-12 Agustus 2019",
+        "location": "Calio, Sulawesi Selatan",
+        "attendees": "300+ keluarga",
+        "description": "Reoni yang meriah dengan perayaan Idul Adha bersama. Dihadiri oleh pejabat pemerintah setempat dan dimeriahkan dengan tradisi Mappadendang yang spektakuler.",
+        "details": "Reoni ketiga di Calio bertepatan dengan perayaan Idul Adha, menjadikan acara ini sangat istimewa. Keluarga besar berkumpul untuk melaksanakan ibadah kurban bersama, berbagi daging kurban kepada masyarakat sekitar, dan menikmati hidangan tradisional. Acara dimeriahkan dengan pertunjukan Mappadendang, seni musik tradisional Bugis yang dimainkan dengan penuh semangat. Kehadiran pejabat pemerintah daerah menunjukkan pengakuan terhadap eksistensi dan kontribusi RKB-AMB dalam masyarakat. Reoni ini mencatatkan jumlah peserta terbanyak hingga saat itu.",
+        "coverImage": "https://placehold.co/800x600/16a34a/ffffff?text=Reoni+Calio+2019",
+        "gallery": [
+            "https://placehold.co/600x600/22c55e/ffffff?text=Perayaan+Idul+Adha",
+            "https://placehold.co/600x600/4ade80/ffffff?text=Mappadendang",
+            "https://placehold.co/600x600/86efac/ffffff?text=Kunjungan+Pejabat",
+            "https://placehold.co/600x600/bbf7d0/ffffff?text=Makan+Bersama"
+        ],
+        "status": "past",
+        "createdAt": "2019-08-10T00:00:00.000Z"
+    },
+    {
+        "id": "1672531200000",
+        "title": "Reoni Keempat: Ziarah Doda",
+        "year": "2023",
+        "date": "5-7 Mei 2023",
+        "location": "Palu & Doda, Sulawesi Tengah",
+        "attendees": "180+ keluarga",
+        "description": "Dokumentasi dan kenangan indah dari pertemuan keluarga di Palu. Mengunjungi lokasi bersejarah di Doda, kampung halaman leluhur keluarga besar.",
+        "details": "Reoni keempat memiliki makna spiritual yang mendalam dengan mengunjungi Doda, kampung halaman leluhur keluarga besar. Perjalanan ziarah ini menjadi momen refleksi tentang akar dan sejarah keluarga. Peserta mengunjungi makam leluhur, rumah-rumah tua yang masih berdiri, dan mendengarkan cerita-cerita dari sesepuh tentang kehidupan di masa lampau. Acara di Palu juga mencakup diskusi tentang genealogi keluarga dan upaya dokumentasi silsilah yang lebih komprehensif. Momen ini memperkuat rasa identitas dan kebanggaan sebagai bagian dari keluarga besar RKB-AMB.",
+        "coverImage": "https://placehold.co/800x600/9333ea/ffffff?text=Ziarah+Doda+2023",
+        "gallery": [
+            "https://placehold.co/600x600/a855f7/ffffff?text=Kunjungan+Doda",
+            "https://placehold.co/600x600/c084fc/ffffff?text=Ziarah+Makam",
+            "https://placehold.co/600x600/e9d5ff/ffffff?text=Foto+di+Palu"
+        ],
+        "status": "past",
+        "createdAt": "2023-05-05T00:00:00.000Z"
+    },
+    {
+        "id": "1751328000000",
+        "title": "Reoni Akbar Ke-5",
+        "year": "2025",
+        "date": "15-17 Juli 2025",
+        "location": "Makassar, Sulawesi Selatan",
+        "attendees": "400+ keluarga (target)",
+        "description": "Mari Bersiap untuk Silaturahmi Akbar! Reoni terbesar yang pernah diadakan dengan berbagai rangkaian acara menarik.",
+        "details": "Reoni Akbar Ke-5 di Makassar akan menjadi pertemuan terbesar dalam sejarah RKB-AMB. Dengan target 400+ keluarga, acara ini akan berlangsung selama 3 hari penuh dengan berbagai kegiatan: seminar keluarga, workshop pengembangan diri, lomba-lomba untuk anak-anak, bazar UMKM keluarga, malam keakraban dengan pertunjukan seni budaya, dan tentu saja silaturahmi antar generasi. Panitia telah menyiapkan venue yang luas dan nyaman di Makassar, dengan akomodasi yang memadai. Acara ini juga akan menjadi momen peluncuran website resmi RKB-AMB dan aplikasi mobile untuk memudahkan komunikasi antar anggota keluarga. Persiapkan diri Anda dan keluarga untuk kembali berkumpul, melepas rindu, dan mempererat tali persaudaraan!",
+        "coverImage": "https://placehold.co/800x600/ea580c/ffffff?text=Reoni+Akbar+2025",
+        "gallery": [
+            "https://placehold.co/600x600/f97316/ffffff?text=Persiapan+Reoni",
+            "https://placehold.co/600x600/fb923c/ffffff?text=Rapat+Panitia"
+        ],
+        "status": "upcoming",
+        "createdAt": "2024-11-25T00:00:00.000Z"
+    }
+]

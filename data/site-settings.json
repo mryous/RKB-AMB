@@ -1,0 +1,83 @@
+{
+    "logo": {
+        "url": "",
+        "alt": "RKB-AMB Logo",
+        "width": 150,
+        "height": 50
+    },
+    "hero": {
+        "template": "slideshow",
+        "backgroundType": "youtube",
+        "backgroundImage": "/uploads/walls.jpg",
+        "backgroundVideo": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=BcaAn2CRzZs&pp=ygUObWFrYXNzYXIgZHJvbmU%3D",
+        "overlayOpacity": 0.9,
+        "title": "Rukun Keluarga Besar\n<span>Appanna Matoa Barru</span>",
+        "subtitle": "Merajut Silaturahmi, Melestarikan Sejarah, Membangun Masa Depan.",
+        "primaryButton": {
+            "text": "Sejarah",
+            "url": "/sejarah"
+        },
+        "secondaryButton": {
+            "text": "Silsilah",
+            "url": "/family-tree"
+        },
+        "slideshowSource": "random",
+        "newsCount": 3
+    },
+    "origin": {
+        "title": "Asal Usul RKB-AMB",
+        "description": "Rukun Keluarga Besar Appanna Matoa Barru (RKB-AMB) adalah organisasi keluarga yang menghimpun keturunan dari Andi Mappangara Bin Andi Mappatola. Berawal dari Barru, Sulawesi Selatan, keluarga besar ini telah berkembang dan tersebar di berbagai wilayah Indonesia.",
+        "image": "/uploads/469995992-8219207811512223-8192623217666563193-n.jpeg",
+        "imageAlt": "Foto Asal Usul RKB-AMB"
+    },
+    "timeline": {
+        "title": "Perjalanan RKB-AMB",
+        "subtitle": "Sejarah dan Milestone Penting",
+        "events": [
+            {
+                "year": "1950",
+                "title": "Awal Mula",
+                "description": "Cikal bakal keluarga besar dimulai dari Barru, Sulawesi Selatan."
+            },
+            {
+                "year": "1980",
+                "title": "Pertemuan Pertama",
+                "description": "Pertemuan keluarga besar pertama kali diadakan untuk mempererat silaturahmi."
+            },
+            {
+                "year": "2000",
+                "title": "Pembentukan Organisasi",
+                "description": "RKB-AMB resmi dibentuk sebagai wadah keluarga besar."
+            },
+            {
+                "year": "2025",
+                "title": "Era Digital",
+                "description": "Peluncuran website dan sistem digital untuk dokumentasi keluarga."
+            }
+        ]
+    },
+    "welcome": {
+        "title": "Selamat Datang Keluarga Besar",
+        "description": "Website ini didedikasikan sebagai pusat dokumentasi dan silaturahmi bagi seluruh keturunan H. Beddu Leppang & Hj. Sami. Di sini kita dapat menelusuri jejak sejarah, mempererat hubungan antar cabang keluarga, dan berbagi kabar terkini.",
+        "quote": "Sipakario, Sipakarennu, Sipatokkong",
+        "quoteAuthor": "- Nilai Luhur Keluarga",
+        "image": "/uploads/appanna-matoa-barru.jpg"
+    },
+    "general": {
+        "websiteName": "Rumpun Keluarga Besar Andi Mappangara Bin Andi Mappatola",
+        "adminEmail": "admin@rkb-amb.org",
+        "adminPassword": "admin"
+    },
+    "updatedAt": 1765358255749,
+    "footer": {
+        "description": "Rukun Keluarga Besar Appanna Matoa Barru. Melestarikan sejarah, mempererat silaturahmi.",
+        "email": "info@rkb-amb.org",
+        "phone": "+62 812-3456-7890",
+        "address": "Makassar, Sulawesi Selatan",
+        "copyright": "RKB-AMB. All rights reserved.",
+        "facebook": "",
+        "instagram": "",
+        "twitter": ""
+    }
+}

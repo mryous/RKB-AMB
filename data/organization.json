@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Nama Ketua",
+    "role": "Ketua Umum",
+    "image": "/uploads/depositphotos-179594348-stock-illustration-creative-vector-illustration-of-default.jpg",
+    "order": 1
+  },
+  {
+    "id": "2",
+    "name": "Nama Sekjen",
+    "role": "Sekretaris Jenderal",
+    "image": "/uploads/depositphotos-179594348-stock-illustration-creative-vector-illustration-of-default.jpg",
+    "order": 2
+  },
+  {
+    "id": "3",
+    "name": "Nama Bendahara",
+    "role": "Bendahara",
+    "image": "/uploads/depositphotos-179594348-stock-illustration-creative-vector-illustration-of-default.jpg",
+    "order": 3
+  },
+  {
+    "id": "4",
+    "name": "Nama Humas",
+    "role": "Humas",
+    "image": "/uploads/depositphotos-179594348-stock-illustration-creative-vector-illustration-of-default.jpg",
+    "order": 4
+  }
+]

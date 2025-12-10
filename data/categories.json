@@ -1,0 +1,50 @@
+[
+    {
+        "id": "all",
+        "name": "Semua Foto",
+        "description": "Semua foto dalam galeri",
+        "icon": "image",
+        "color": "#64748b",
+        "slug": "all"
+    },
+    {
+        "id": "reunion",
+        "name": "Reuni",
+        "description": "Foto-foto dari acara reuni keluarga",
+        "icon": "calendar",
+        "color": "#1e3a8a",
+        "slug": "reunion"
+    },
+    {
+        "id": "family",
+        "name": "Keluarga",
+        "description": "Foto keluarga dan silaturahmi",
+        "icon": "users",
+        "color": "#16a34a",
+        "slug": "family"
+    },
+    {
+        "id": "event",
+        "name": "Acara",
+        "description": "Acara dan kegiatan keluarga",
+        "icon": "calendar-days",
+        "color": "#ea580c",
+        "slug": "event"
+    },
+    {
+        "id": "archive",
+        "name": "Arsip Lawas",
+        "description": "Foto-foto dokumentasi lama",
+        "icon": "archive",
+        "color": "#9333ea",
+        "slug": "archive"
+    },
+    {
+        "id": "submission",
+        "name": "Foto Kiriman",
+        "description": "Foto yang dikirim oleh anggota keluarga",
+        "icon": "upload",
+        "color": "#dc2626",
+        "slug": "submission"
+    }
+]

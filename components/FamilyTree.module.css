@@ -1,0 +1,288 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 80vh;
+}
+
+.treeArea {
+    flex: 1;
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    overflow: auto;
+    position: relative;
+}
+
+.treeWrapper {
+    min-width: max-content;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 100%;
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.sidebarTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+.detailContent {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.avatar {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+    background-color: #e5e7eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    overflow: hidden;
+}
+
+.avatarImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.memberInfo {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.memberName {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.memberSpouse {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+}
+
+.infoList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.infoItem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed var(--border);
+    padding: 0.25rem 0;
+}
+
+.infoLabel {
+    color: #6b7280;
+}
+
+.btnOutline {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    background: transparent;
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btnOutline:hover {
+    background-color: var(--muted);
+}
+
+.emptyState {
+    text-align: center;
+    color: var(--muted-foreground);
+    padding: 2rem 0;
+}
+
+/* Tree Node Styles */
+.nodeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.nodeCardWrapper {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 1rem;
+}
+
+.rootNode {
+    margin-bottom: 2rem;
+}
+
+.nodeCard {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--border);
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.nodeCard:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-color: var(--secondary);
+}
+
+.rootCard {
+    border-color: var(--primary);
+    background-color: rgba(30, 58, 138, 0.05);
+}
+
+.nodeName {
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0.875rem;
+}
+
+.rootName {
+    font-size: 1.125rem;
+    color: var(--primary);
+}
+
+.nodeSpouse {
+    font-size: 0.75rem;
+    color: var(--muted-foreground);
+    text-align: center;
+    border-top: 1px dashed var(--border);
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+}
+
+.toggleBtn {
+    position: absolute;
+    bottom: -0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted-foreground);
+    z-index: 20;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.toggleBtn:hover {
+    color: var(--primary);
+}
+
+.childrenContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1rem;
+    position: relative;
+    animation: fadeInDown 0.3s ease-out;
+}
+
+.childNodeWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.verticalLine {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 1rem;
+    background-color: var(--border);
+}
+
+.horizontalLine {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: var(--border);
+    margin: 0 auto;
+    width: calc(100% - 2rem);
+}
+
+.childVerticalLine {
+    position: absolute;
+    top: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 1rem;
+    background-color: var(--border);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 20rem;
+        position: sticky;
+        top: 1rem;
+    }
+}
