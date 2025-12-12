@@ -66,10 +66,13 @@
     },
     "general": {
         "websiteName": "Rumpun Keluarga Besar Andi Mappangara Bin Andi Mappatola",
-        "adminEmail": "admin@rkb-amb.org",
-        "adminPassword": "admin"
+        "adminUsername": "webmaster",
+        "adminEmail": "itsmryous@gmail.com",
+        "adminPassword": "@7Abepuang",
+        "adminPhone": "",
+        "adminAvatar": ""
     },
-    "updatedAt": 1765358255749,
+    "updatedAt": 1765418308307,
     "footer": {
         "description": "Rukun Keluarga Besar Appanna Matoa Barru. Melestarikan sejarah, mempererat silaturahmi.",
         "email": "info@rkb-amb.org",

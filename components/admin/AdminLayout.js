@@ -1,31 +1,24 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Users, FileText, Image as ImageIcon, Settings, LogOut, LayoutDashboard, BookOpen, Calendar, FolderOpen } from 'lucide-react';
+import ProfileDropdown from './ProfileDropdown';
 import styles from './AdminLayout.module.css';
 
 export default function AdminLayout({ children, activePage, title }) {
+    const { data: session, status } = useSession();
     const router = useRouter();
-    const [user, setUser] = useState(null);
 
-    useEffect(() => {
-        // Check auth
-        const storedUser = localStorage.getItem('user');
-        if (!storedUser) {
-            router.push('/login');
-        } else {
-            setUser(JSON.parse(storedUser));
-        }
-    }, [router]);
+    if (status === 'loading') {
+        return <div>Loading...</div>;
+    }
 
-    const handleLogout = () => {
-        localStorage.removeItem('user');
+    if (status === 'unauthenticated') {
         router.push('/login');
-    };
-
-    if (!user) return null;
+        return null;
+    }
 
     return (
         <div className={styles.container}>
@@ -88,12 +81,9 @@ export default function AdminLayout({ children, activePage, title }) {
                 </nav>
 
                 <div className={styles.sidebarFooter}>
-                    <button
-                        onClick={handleLogout}
-                        className={styles.logoutBtn}
-                    >
-                        <LogOut size={18} /> Keluar
-                    </button>
+                    <div className={styles.sidebarUser}>
+                        Logged in as {session?.user?.email}
+                    </div>
                 </div>
             </aside>
 
@@ -103,12 +93,7 @@ export default function AdminLayout({ children, activePage, title }) {
                     <h1 className={styles.pageTitle}>
                         {title}
                     </h1>
-                    <div className={styles.userProfile}>
-                        <span className={styles.userName}>Halo, {user.name}</span>
-                        <div className={styles.userAvatar}>
-                            {user.name[0]}
-                        </div>
-                    </div>
+                    <ProfileDropdown />
                 </div>
 
                 {children}
